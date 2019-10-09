@@ -1,11 +1,15 @@
 import React from 'react';
+import './App.css';
+import Chat from './Chat';
 
-class App extends React.Component{
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <Chat />
+            </div>
+        );
+    };
 
-    render(){
-        return <h1>Hello World!</h1>;
-    }
-
-}
-
+};
 export default App;

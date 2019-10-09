@@ -1,0 +1,130 @@
+@import "../reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+hr {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    /* column-gap: 1px; */
+    height: 100vh;
+}
+
+.sideBar {
+    background: #fff;
+    border-right: 1px solid #e5e5e5;
+}
+
+.mainContent {
+    /* background: #ddd; */
+}
+
+.container-flex {
+    display: flex;
+}
+
+.f-d-column {
+    flex-direction: column;
+}
+
+.vh {
+    height: 100vh;
+}
+
+.header {
+    min-height: 60px;
+    padding: 0.5em;
+    background: #5177CD;
+    color: #fff;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.chat-reply {
+    justify-content: flex-start;
+}
+
+.chat-sent {
+    justify-content: flex-end;
+}
+
+
+.chat-blob {
+    background: #67AAF9;
+    color: #fff;
+    border-radius: 1.7em;
+    font-size: 1em;
+    padding: 0.7em;
+}
+
+.chat-blob {
+    margin: 0 0 0.5em 0;
+}
+
+.a-s-center {
+    align-self: center;
+}
+
+.input-container {
+    background: #fff;
+    height: 60px;
+}
+
+.padding-sm {
+    padding: 0.5em
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.chat-container {
+    overflow: auto;
+}
+
+.f-width {
+    width: 100%;
+}
+
+.send-button {
+    color: #5177CD;
+}
+
+.list-item {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* .list-item:last-child {
+    border-bottom: none;
+} */
+
+.info-text {
+    font-size: 0.7em;
+}
+
+.list {
+    overflow: auto;
+}
