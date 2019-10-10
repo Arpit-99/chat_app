@@ -13,9 +13,9 @@ router.post('/signup', async (req, res, next) => {
     const user = new User(req.body);
 
     await user.save();
+    const token = await user.generateAuthToken();
 
-    res.send(user);
-
+    res.send({ user, token });
   } catch (error) {
     console.log(error);
     res.status(400).send(error);
@@ -25,11 +25,11 @@ router.post('/signup', async (req, res, next) => {
 router.post('/login', async (req, res, next) => {
   try {
 
-    user = await User.findByCredentials(req.body.email, req.body.password);
+    const user = await User.findByCredentials(req.body.email, req.body.password);
 
-    token = await user.generateAuthToken();
+    const token = await user.generateAuthToken();
 
-    res.send(user, token);
+    res.send({ user, token });
 
   } catch (error) {
     res.status(400).send(error);
