@@ -9,3 +9,7 @@
 .fw {
     width: 100%;
 }
+
+.width-md {
+    max-width: 350px;
+}
