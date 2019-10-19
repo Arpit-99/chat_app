@@ -1,6 +1,6 @@
 import React from 'react';
-import Segment from '../../Segment/Segment';
-import ChatMessage from '../Message/Message';
+import Segment from '../../../containers/Segment';
+import MessageBlob from '../MessageBlob/MessageBlob';
 import ChatFooter from '../Footer/Footer';
 import ChatHeader from '../Header/Header';
 
@@ -15,7 +15,7 @@ class MainContent extends React.Component {
                     <div className="chat-container padding-sm">
                         {/* will take an array containing chat objects*/}
                         {/* To list the messages */}
-                        <ChatMessage />
+                        <MessageBlob />
                     </div>
                     <div className="spacer"></div>
                     <div className="input-container container-flex padding-sm">

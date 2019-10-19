@@ -1,5 +1,5 @@
 import React from 'react';
-import Segment from '../../Segment/Segment';
+import Segment from '../../../containers/Segment';
 import SidebarHeader from './Header/Header';
 import ChatUserList from '../UserList/UserList';
 
