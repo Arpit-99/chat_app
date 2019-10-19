@@ -1,0 +1,15 @@
+.text-center {
+    text-align: center;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.l-h-md {
+    line-height: 2em;
+}
+
+.info-text {
+    font-size: 0.7em;
+}

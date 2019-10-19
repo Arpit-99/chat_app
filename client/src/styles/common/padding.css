@@ -1,0 +1,69 @@
+/* padding bottom */
+.p-b-sm {
+    padding: 0 0 0.5em 0;
+}
+
+.p-b-md {
+    padding: 0 0 1em 0;
+}
+
+.p-b-lg {
+    padding: 0 0 1.5em 0;
+}
+
+.p-b-xl {
+    padding: 0 0 2em 0;
+}
+
+/* padding top */
+.p-t-sm {
+    padding: 0.5em 0 0 0;
+}
+
+.p-t-md {
+    padding: 0.5em 0 0 0;
+}
+
+.p-t-lg {
+    padding: 1.5em 0 0 0;
+}
+
+.p-t-xl {
+    padding: 2em 0 0 0;
+}
+
+/* padding top and bottom */
+
+.p-y-sm {
+    padding: 0.5em 0;
+}
+
+.p-y-md {
+    padding: 0.5em 0;
+}
+
+.p-y-lg {
+    padding: 1.5em 0;
+}
+
+.p-y-xl {
+    padding: 2em 0;
+}
+
+/* padding left and right */
+
+.p-x-sm {
+    padding: 0 0.5em;
+}
+
+.p-x-md {
+    padding: 0 0.5em;
+}
+
+.p-x-lg {
+    padding: 0 1.5em;
+}
+
+.p-x-xl {
+    padding: 0 2em;
+}
